@@ -1,0 +1,112 @@
+
+body{
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background: url("./retro.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+body button:hover{
+    background-color: rgba(212, 202, 202, 0.179);
+    cursor: pointer;
+}
+
+
+body h1{
+    color: rgb(228, 32, 32);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.553);
+}
+
+body h2{ 
+    color: rgb(55, 128, 0);
+    background-color: rgba(0, 0, 0, 0.276);
+    border-radius: 15px;
+
+}
+
+.reset{
+    font-size: 20px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    color: rgb(249, 102, 102);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#title{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+#players{
+    display: flex;
+    position: absolute;
+    left: 80px;
+    top: 150px;
+}
+
+#players div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#players h1{
+    margin-right: 60px;
+    margin-bottom: 0px;
+}
+
+#players h2{
+    margin-right: 60px;
+}
+
+
+#containerTik{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100px 100px 100px;
+    margin-top: 90px;
+}
+#containerTik button{
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.815);
+}
+
+#containerTik button:hover{
+    cursor: pointer;
+    background-color: rgba(47, 4, 47, 0.575);
+}
+
+
+.red{
+    font-size: 50px;
+    color: red;
+}
+
+.blue {
+    font-size: 50px;
+    color: blue;
+}
+
+.x{
+    font-size: 20px;
+    color: blue;
+    margin-right: 60px;
+    background-color: rgba(0, 0, 0, 0.276);
+    border-radius: 15px;
+}
+
+.o{
+    font-size: 20px;
+    color: red;
+    margin-right: 60px;
+    background-color: rgba(0, 0, 0, 0.276);
+    border-radius: 15px;
+
+}
